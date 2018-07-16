@@ -1,1 +1,1 @@
-FROM docker.elastic.co/beats/filebeat:5.2.2
+FROM gcr.io/google_containers/metrics-server-amd64:v0.2.1
