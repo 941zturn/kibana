@@ -1,5 +1,1 @@
-FROM golang:latest
-RUN go get -u github.com/rakyll/hey
-FROM scratch
-COPY --from=0 /go/bin/hey .
-CMD ["./hey"]
+FROM quay.io/openshift-release-dev/ocp-release@sha256:3ea2648231035c1a65e8d91fa818bb225a2815bc0d6abfc35063a11eaba8659f
